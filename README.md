@@ -12,5 +12,4 @@ Setup mongoDB
 - Open new command line interface.
 - Go to below path and run below command:
 
-> C:\Program Files\MongoDB\Server\3.0\bin> mongod --dbpath="D:\projects\mean-auth\d
-ata\db"
+> C:\Program Files\MongoDB\Server\3.0\bin> mongod --dbpath="D:\projects\mean-auth\data\db"
