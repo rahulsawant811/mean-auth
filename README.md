@@ -13,3 +13,11 @@ Setup mongoDB
 - Go to below path and run below command:
 
 > C:\Program Files\MongoDB\Server\3.0\bin> mongod --dbpath="D:\projects\mean-auth\data\db"
+
+Endpoints
+
+- http://localhost:3000/users/register
+
+- http://localhost:3000/users/login
+
+- http://localhost:3000/users/profile
