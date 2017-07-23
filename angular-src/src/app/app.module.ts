@@ -12,7 +12,10 @@ import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ValidateService } from './services/validate.service';
+<<<<<<< HEAD
 import { AuthService } from './services/auth.service';
+=======
+>>>>>>> 127ffd7254d6433a62520a7fea682f5402b93a86
 import { FlashMessagesModule } from 'angular2-flash-messages';
 
 const appRoutes: Routes = [
@@ -41,8 +44,12 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes)
   ],
   providers: [
+<<<<<<< HEAD
       ValidateService,
       AuthService
+=======
+      ValidateService
+>>>>>>> 127ffd7254d6433a62520a7fea682f5402b93a86
   ],
   bootstrap: [AppComponent]
 })
